@@ -1,0 +1,26 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+
+/* Clase para las imágenes dentro de las tarjetas */
+.card-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px; 
+}
+
+/* Clase para las tarjetas */
+.custom-card {
+  width: 18rem;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ajustes para el cuerpo de la tarjeta (card-body) */
+.card-body {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+}
